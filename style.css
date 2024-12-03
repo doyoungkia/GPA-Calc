@@ -1,0 +1,125 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Center and format the main container */
+#subjects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.subject {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.subject button {
+    width: 100px;
+    margin: 5px;
+}
+
+/* GPA and weight input styling */
+#gpa, #weight-settings {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn.add-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.btn.save-btn {
+    background-color: #008CBA;
+    color: white;
+}
+
+.btn.small-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+#weight-settings input {
+    width: 60px;
+    margin: 0 5px;
+    padding: 5px;
+    font-size: 14px;
+    text-align: center;
+}
+
+#weight-settings button {
+    margin-top: 10px;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+    .subject {
+        width: 100%;
+    }
+
+    .btn {
+        font-size: 12px;
+        padding: 8px 15px;
+    }
+}
+
+/* General styles for assessments section */
+#assessments {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+/* Add Assessment button styles */
+#add-assignment-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    width: 90%;
+    max-width: 200px;
+}
+
+#add-assignment-button:hover {
+    background-color: #45a049;
+}
